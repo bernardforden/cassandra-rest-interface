@@ -1,0 +1,3 @@
+{
+  "contactPoints" : ["cassandra-database", "cassandra-database.default.svc.cluster.local"]
+}

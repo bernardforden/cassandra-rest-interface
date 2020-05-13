@@ -1,0 +1,19 @@
+{
+  "name": "cassandra-rest",
+  "description": "Web UI for managing Cassandra REST",
+  "keywords": ["UI", "Cassandra", "REST"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aksakalli/sandraREST.git"
+  },
+  "dependencies": {},
+  "scripts": {
+    "prepare": "mversion patch -mn 'Patch new version and publish'",
+    "postpublish": "git push && git push --tags",
+    "build": "bower install",
+    "all": "npm run build && npm run start"
+  },
+  "devDependencies": {}
+}
